@@ -32,13 +32,13 @@ namespace VOTACION
                 opcion = int.Parse(Console.ReadLine());
                 if (opcion == 1)
                 {
-                    Console.WriteLine("usted a votado por Rodolfo Figueroa");
+                    Console.WriteLine("usted a votado por Rodolfo Figueroa.");
                     acumuladorRF++;
                 }
                 else
                     if (opcion == 2)
                 {
-                    Console.WriteLine("usted a votado por Marcelo Gozo");
+                    Console.WriteLine("usted a votado por Marcelo Gozo.");
                     acumuladorMG++;
                 }
                 else
