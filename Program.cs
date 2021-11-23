@@ -1,4 +1,4 @@
-﻿
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +18,7 @@ namespace VOTACION
             acumuladorAC = 0;
             acumuladorN = 0;
             acumuladorB = 0;
-            Console.WriteLine("ingrese el numero de invercionistas que van a votar");
+            Console.WriteLine("ingrese el numero de invercionistas que van a votar.");
             n = int.Parse(Console.ReadLine());
             for(contador=1;contador<=n;contador++)
             {
