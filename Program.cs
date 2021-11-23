@@ -32,19 +32,19 @@ namespace VOTACION
                 opcion = int.Parse(Console.ReadLine());
                 if (opcion == 1)
                 {
-                    Console.WriteLine("usted a votado por Rodolfo Figueroa.");
+                    Console.WriteLine("Usted a votado por Rodolfo Figueroa.");
                     acumuladorRF++;
                 }
                 else
                     if (opcion == 2)
                 {
-                    Console.WriteLine("usted a votado por Marcelo Gozo.");
+                    Console.WriteLine("Usted a votado por Marcelo Gozo.");
                     acumuladorMG++;
                 }
                 else
                         if (opcion == 3)
                 {
-                    Console.WriteLine("usted a votado por Agustin Cejom");
+                    Console.WriteLine("Usted a votado por Agustin Cejom");
                     acumuladorAC++;
                 }
                 else
@@ -56,18 +56,18 @@ namespace VOTACION
                 else
                                 if (opcion == 5)
                 {
-                    Console.WriteLine("usted a anulado el voto");
+                    Console.WriteLine("Usted a anulado el voto");
                     acumuladorN++;
                 }
                 contadorP++;
             }
-            Console.WriteLine("usted a terminado el voto con exito ");
-            Console.WriteLine("votos por Rodolfo Figueroa " + acumuladorRF);
-            Console.WriteLine("votos por Marcelo Gozo " + acumuladorMG);
-            Console.WriteLine("votos por Agustin Cejon " + acumuladorAC);
-            Console.WriteLine("votos en blanco" + acumuladorB);
-            Console.WriteLine("votos nulos " + acumuladorN);
-            Console.WriteLine("numero de sufragantes es " + contadorP);
+            Console.WriteLine("Usted a terminado el voto con exito ");
+            Console.WriteLine("Votos por Rodolfo Figueroa " + acumuladorRF);
+            Console.WriteLine("Votos por Marcelo Gozo " + acumuladorMG);
+            Console.WriteLine("Votos por Agustin Cejon " + acumuladorAC);
+            Console.WriteLine("Votos en blanco" + acumuladorB);
+            Console.WriteLine("Votos nulos " + acumuladorN);
+            Console.WriteLine("Numero de sufragantes es " + contadorP);
             Console.ReadKey();
         }
     }
