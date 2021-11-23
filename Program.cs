@@ -68,7 +68,8 @@ namespace VOTACION
             Console.WriteLine("Votos en blanco" + acumuladorB);
             Console.WriteLine("Votos nulos " + acumuladorN);
             Console.WriteLine("Numero de sufragantes es " + contadorP);
-            Console.ReadKey();
+            Console.ReadKey();//CODIGO COMPLETO
+           
         }
     }
 }
